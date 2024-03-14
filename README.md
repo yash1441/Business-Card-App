@@ -1,4 +1,4 @@
-#Business Card App
+# Business Card App
 A simple business card app built for Android using Kotlin and Jetpack Compose. This app is part of a course by Google for Android Studio development which can be found [here](https://developer.android.com/codelabs/basic-android-kotlin-compose-business-card).
 
 ## Prerequisites
