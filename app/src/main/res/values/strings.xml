@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="name_text">Yash Raj Kapoor</string>
+    <string name="job_title_text">Android Developer</string>
+    <string name="phone_number_text">+91 9878 444 718</string>
+    <string name="username_text">\@yash1441</string>
+    <string name="email_text">yash1441@yahoo.com</string>
+</resources>
