@@ -53,18 +53,17 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BusinessCardScreen() {
-    HeadSection(androidColor = Color(0x303ddc84))
-    ContactSection(androidColor = Color(0x303ddc84))
+    HeadSection(androidColor = Color(0xFF3ddc84))
+    ContactSection(androidColor = Color(0xFF3ddc84))
 }
 
 @Composable
-fun HeadSection(androidColor: Color, modifier: Modifier = Modifier) {
+fun HeadSection(androidColor: Color) {
     val image = painterResource(id = R.drawable.android_logo)
     Column(
         modifier = Modifier
             .fillMaxHeight()
             .fillMaxWidth()
-            .background(androidColor)
             .padding(bottom = 100.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
@@ -92,7 +91,7 @@ fun HeadSection(androidColor: Color, modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun ContactSection(androidColor: Color, modifier: Modifier = Modifier) {
+fun ContactSection(androidColor: Color) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
